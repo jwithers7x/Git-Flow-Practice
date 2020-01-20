@@ -42,7 +42,7 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
     31. How do I find out what file I am in, when I am using the command line? git status
     32. Using the command line - how do I see a list of files/folders in my current folder? type ls
     33. How do I remove a file via the command line? remove name of file (on mac) or rm. Why do I have to be careful with this? 
-    34. Why should I use version control? 
+    34. Why should I use version control? records changes to a file so you can go back to a later version if needed to.
     35. How often should I commit to github? everytime I make a change to my code/project.
     36. What is the command we would use to push our repo up to github? git push
     37. Walk me through Lambda's git flow. 

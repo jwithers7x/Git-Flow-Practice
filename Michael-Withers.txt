@@ -1,0 +1,79 @@
+https://codepen.io/mwithers70/full/ExaOxEz
+
+<!-- reveiw questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? meaning introduced to a web page. semantic elements give meaning to the web page.
+    2. What is HTML used for? hypertext markup language, is used to create web pages.
+    3. What is an attribute and where do we put it? attributes are modifiers of html elements that provide additional information. usually come in name/value pairs. 
+    4. What is the h1 tag used for? How many times should I use it on a page? h1 tag is used for SEO and to define the heading of a page.
+    5. Name two tags that have required attributes: anchor <a> tag and image <img> tag.
+    6. What do we put in the head of our HTML document? container for metadata and we store html data in there.
+    7. What is an id? specifies a unique html element.
+    8. What elements can I add an id to? can use the id tag on any html element.
+    9. How many times can I use the same id on a page? can only use the same id once per page.
+    10. What is a class? defines equal styles for elements with the same class name.
+    11. What elements can I add a class to? can use on any html element.
+    12. How many times can I use the same class on a page? as many times as one likes.
+    13. How do I get my link to open in a new tab? <a href="url">insert link text</a>
+    14. What is the alt attribute used for? provides alternative info for users that cannot view them.
+    15. How do I reference an id? using the # symbol
+    16. What is the difference between a section and a div? <section> tags define parts in a document like the header, footer, chapter. <div> tags are used more as a container to style elements
+    17. What is CSS used for? cascading stylesheets, are used to style a web page.
+    18. How do we select an element? Example - every h2 on the page: .h2{ }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    class: defines equal styles for elements with the same class name.
+        when you have 3 div elements pointing to the same class
+    id: specifies a unique html element.
+        styling the header, which is unique to the page you would want to use an id.
+    20. How do we select classes in CSS? with a dot (.) followed by class name.
+    21. How do we select a p element with a single class of “human””? p.human{}
+    22. What is a parent child selector? selects all elements that are direct child of a specified element. 
+    When would this be useful? when you have multiple <p> elements and want to select only the first <p> element.
+    23. How do you select all links within a div with the class of sidebar? div.sidebar a:link{}
+    24. What is a pseudo selector? selects elements in a specific state, first element of their type or being hovered over
+    25. What do we use to change the spacing between lines? line-height;
+    26. What do we use to change the spacing between letters? letter-spacing;
+    27. What do we use to to change everything to CAPITALS? text-transform:uppercase lowercase? text-transform:lowercase Capitalize? text-transform:capitalize
+    28. How do I add a 1px border around my div that is dotted and black? border:1px dotted black;
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS? /* insert comment */
+    31. How do I find out what file I am in, when I am using the command line? git status
+    32. Using the command line - how do I see a list of files/folders in my current folder? type ls
+    33. How do I remove a file via the command line? remove name of file (on mac) or rm. Why do I have to be careful with this? 
+    34. Why should I use version control? records changes to a file so you can go back to a later version if needed to.
+    35. How often should I commit to github? everytime I make a change to my code/project.
+    36. What is the command we would use to push our repo up to github? git push
+    37. Walk me through Lambda's git flow. 
+        Git Flow
+* Fork
+* github repository settings -> add your TL as collaborator
+* git clone into a local file using your terminal
+* in terminal in cloned file create a branch -> git checkout -b "firstname-lastname"
+* make a small change to project -> add -> commit -> git push origin firstname-lastname
+* go back to Github repo, click compare & pull request button
+* click base fork: dropdown -> select firstname-lastname/project-name
+* click reviewers button, add TL as collaborator NOTE: If TL name doesn't pop up when you type it in for reviewer it's because they haven't accepted your collaborator invite. DM them and ask them to accept.
+* click create pull request
+* DO NOT CLICK MERGE PULL REQUEST. TL’s will be the only person to do this, and will only do it after they have confirmed you’ve met MVP.
+* Head back over to your project and start working. 
+    * Git add .
+    * Git commit -m “insert message” 
+    * Git push origin Michael-Withers (every time you finish a feature)
+* Once MVP is complete make a commit with the commit message “mvp complete.” And I’ll check it out.
+* Check your e-mail to see when request is merged.
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    Inline elements are those which only occupy the space bounded by the tags defining the element
+    Block-level element always starts on a new line and takes up the full width available 
+    2. What happens when an element is positioned absolutely? is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? (not sure?!)
+    4. Name 3 elements that are diplay block by default:<div>, <h1> - <h6>, <p>
+        2 elements that are display inline by default: <span>, <a>
+        1 element that is display inline-block by default: width and height
+    5. In your own words, explain the box model. What is the fix for the box model? a box that incases the html elements on a web page. includes margin, padding, border and content.
+        
